@@ -1,0 +1,11 @@
+.header{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    img {
+        width: 350px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+}
