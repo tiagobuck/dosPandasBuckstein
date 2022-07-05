@@ -1,0 +1,53 @@
+.mono{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 15px;
+    color: rgb(26, 71, 38);
+}
+.mono h4 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    
+    
+}
+.mono p {
+    color: black;
+    font-size: 16px;
+    line-height: 25px;
+}
+.cierreMono1{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.mono1{
+    width: 180px;
+
+}
+.mono2{
+    width: 180px;
+}
+.mono3{
+    width: 360px;
+    margin-bottom: 20px;
+}
+.ddp1{
+    width: 250px;
+    height: 250px;
+    
+}
+.ddp2{
+    width: 250px;
+    height: 250px;
+}
+.ddp{
+    margin-top: 20px;
+}
+.hilo2{
+    width: 50px;
+
+}

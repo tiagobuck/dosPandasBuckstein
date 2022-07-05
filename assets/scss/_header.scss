@@ -7,5 +7,10 @@
     }
     h1 {
         font-size: 60px;
+        color: $colorPrimario;
     }
+}
+.headerH1 h1 {
+    color: $colorPrimario;
+    font-size: 50px;
 }
