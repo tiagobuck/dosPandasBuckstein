@@ -253,62 +253,263 @@
 
 footer {
   background-color: #1a4726; }
+  footer .copi h5 {
+    color: white; }
 
 @media (min-width: 1200px) {
+  .navBar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 30; }
   .navegador {
+    height: 100px;
     background-color: whitesmoke;
     font-size: 20px;
     justify-content: start; }
-  .headerH1 h1 {
-    font-size: 100px;
-    margin: 30px 5px 5px 5px; }
-  .headerH1 .carouselFotos {
-    height: 400px; }
-    .headerH1 .carouselFotos img {
+  .imgLogo {
+    margin-right: 25px; }
+  .headerH1 {
+    margin-top: 150px; }
+    .headerH1 h1 {
+      font-size: 100px;
+      margin: 30px 5px 5px 5px; }
+    .headerH1 .carouselFotos {
       height: 400px; }
-  .main .slogan h2 {
-    font-size: 60px; }
-  .main .slogan h3 {
-    font-size: 40px; }
-  .main .subTitulo {
-    display: flex; }
-    .main .subTitulo h3 {
-      font-size: 50px; }
-  .main .tarjetas {
-    display: flex; }
-    .main .tarjetas .cierres {
-      border: 0px;
-      margin-right: 150px; }
-    .main .tarjetas .cintas {
-      border: 0px;
-      margin-left: 150px; }
-    .main .tarjetas .hilos {
-      border: 0px;
-      margin-right: 150px; }
-    .main .tarjetas .guata {
-      border: 0;
-      margin-left: 150px; }
-  .main .parrafo {
+      .headerH1 .carouselFotos img {
+        height: 400px; }
+  .header {
+    margin-top: 100px; }
+    .header h1 {
+      font-size: 150px; }
+    .header img {
+      margin-top: 100px;
+      width: 800px; }
+  .mainContacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    justify-content: start; }
+    .mainContacto .divForm {
+      margin-right: 200px; }
+  .mainIndex {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 50px; }
+    .mainIndex .slogan {
+      margin-top: 30px;
+      margin-bottom: 20px;
+      width: 100%;
+      display: flex;
+      flex-direction: column; }
+      .mainIndex .slogan h2 {
+        margin-bottom: 50px;
+        font-size: 100px; }
+      .mainIndex .slogan h3 {
+        font-size: 40px; }
+    .mainIndex .subTitulo {
+      display: flex; }
+      .mainIndex .subTitulo h3 {
+        margin-top: 30px;
+        font-size: 60px; }
+    .mainIndex .tarjetas {
+      display: flex;
+      margin-top: 80px;
+      align-items: center;
+      justify-content: space-around; }
+      .mainIndex .tarjetas .cierres {
+        background-color: #aaa;
+        border: 1px solid black;
+        margin-right: 150px;
+        margin-bottom: 150px; }
+      .mainIndex .tarjetas .cintas {
+        background-color: #aaa;
+        border: 1px solid black;
+        margin-left: 150px;
+        margin-bottom: 150px; }
+      .mainIndex .tarjetas .hilos {
+        background-color: #aaa;
+        border: 1px solid black;
+        margin-right: 150px;
+        margin-bottom: 150px; }
+      .mainIndex .tarjetas .guata {
+        background-color: #aaa;
+        border: 1px solid black;
+        margin-left: 150px;
+        margin-bottom: 150px; }
+    .mainIndex .parrafo {
+      font-size: 40px;
+      margin: 15px;
+      text-align: center; }
+    .mainIndex .somos {
+      display: flex;
+      flex-direction: row;
+      border: 0; }
+      .mainIndex .somos p {
+        font-size: 30px;
+        text-align: center; }
+    .mainIndex .slogan1 .subDatos {
+      margin-left: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .mainIndex .slogan1 .subDatos h5 {
+        font-size: 40px;
+        margin-right: 560px; }
+    .mainIndex .divForm {
+      color: black;
+      font-size: 30px;
+      width: 600px; }
+      .mainIndex .divForm textarea {
+        border: 6px solid #1a4726;
+        color: black;
+        font-size: 26px; }
+      .mainIndex .divForm input {
+        border: 6px solid #1a4726;
+        color: black;
+        font-size: 26px; }
+    .mainIndex .slogan1 {
+      display: flex;
+      justify-content: center; }
+    .mainIndex .slogan1 h5 {
+      font-size: 20px;
+      color: #1a4726;
+      margin-top: 50px; }
+  .main {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 50px; }
+    .main .sectionContactos {
+      width: 50%; }
+    .main .logoRedesContacto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 50%; }
+      .main .logoRedesContacto .divInstagram {
+        display: flex; }
+        .main .logoRedesContacto .divInstagram h5 {
+          font-size: 30px; }
+    .main .logosContacto {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 50%; }
+      .main .logosContacto .divDatos {
+        display: flex; }
+        .main .logosContacto .divDatos h5 {
+          font-size: 30px; }
+    .main .slogan {
+      margin-top: 30px;
+      border: 1px solid black;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .main .slogan h2 {
+        font-size: 60px; }
+      .main .slogan h3 {
+        font-size: 40px; }
+    .main .subTitulo {
+      display: flex; }
+      .main .subTitulo h3 {
+        font-size: 50px; }
+    .main .tarjetas {
+      display: flex; }
+      .main .tarjetas .cierres {
+        border: 0px;
+        margin-right: 150px; }
+      .main .tarjetas .cintas {
+        border: 0px;
+        margin-left: 150px; }
+      .main .tarjetas .hilos {
+        border: 0px;
+        margin-right: 150px; }
+      .main .tarjetas .guata {
+        border: 0;
+        margin-left: 150px; }
+    .main .slogan1 .subDatos {
+      margin-left: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .main .slogan1 .subDatos h5 {
+        font-size: 40px;
+        margin-right: 560px; }
+    .main .divForm {
+      color: black;
+      font-size: 30px;
+      width: 600px; }
+      .main .divForm textarea {
+        border: 6px solid #1a4726;
+        color: black;
+        font-size: 26px; }
+      .main .divForm input {
+        border: 6px solid #1a4726;
+        color: black;
+        font-size: 26px; }
+    .main .slogan1 {
+      display: flex;
+      justify-content: center; }
+    .main .slogan1 h5 {
+      font-size: 20px;
+      color: #1a4726;
+      margin-top: 50px; }
+    .main .maps {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 50px;
+      width: 99%; }
+  .maps {
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px; }
+    .maps iframe {
+      width: 100%; }
+  .mainNos .slogan {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; }
+    .mainNos .slogan h2 {
+      font-size: 60px; }
+  .mainNos .parrafo {
     font-size: 40px;
     margin: 15px;
     text-align: center; }
-  .main .somos {
+  .mainNos .somos {
     display: flex;
     flex-direction: row;
-    border: 0; }
-    .main .somos p {
-      font-size: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px; }
+    .mainNos .somos p {
+      font-size: 25px;
+      margin-right: 50px;
       text-align: center; }
-    .main .somos img:hover {
-      text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15), 2px 2px 2px rgba(12, 89, 7, 0); }
-  .main .somos3 {
+    .mainNos .somos .somos1 {
+      margin-left: 50px; }
+  .mainNos .somos3 {
     display: flex;
     flex-direction: row-reverse;
-    border: 0;
-    margin-left: 400px; }
-    .main .somos3 p {
-      font-size: 30px;
-      text-align: center; }
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px; }
+    .mainNos .somos3 .somos2 {
+      margin-right: 50px; }
+    .mainNos .somos3 p {
+      font-size: 25px;
+      text-align: center;
+      margin-left: 50px; }
   footer {
     display: flex;
     flex-direction: row-reverse;

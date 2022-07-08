@@ -1,13 +1,27 @@
 @media (min-width: 1200px){
+    .navBar{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 30;
+     
+        
+    }
 
     
     .navegador{
+        height: 100px;
         background-color: whitesmoke;
         font-size: 20px;
         justify-content: start;
     
     }
+    .imgLogo{
+        margin-right: 25px;
+    }
+    
     .headerH1{
+        margin-top: 150px;
         h1{
             font-size: 100px;
              margin: 30px 5px 5px 5px;
@@ -21,9 +35,226 @@
         }
     }
 }
+.header{
+    margin-top: 100px;
+    h1{
+        font-size: 150px;
+    }
+    img{
+        margin-top: 100px;
+        width: 800px;
+    }
+}
+.mainContacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    justify-content: start;
+
+    .divForm{
+        margin-right: 200px;
+    }
+}
+.mainIndex{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 50px;
+ 
+ 
+    .slogan{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+  
+        
+        h2{
+            margin-bottom: 50px;
+            font-size: 100px;
+
+            }
+            h3{
+                font-size: 40px;
+
+            }
+        }
+
+       
+        
+        .subTitulo{
+            display: flex;
+            h3{
+                margin-top: 30px;
+                font-size: 60px;
+            }
+     
+        }
+    
+        .tarjetas{
+            display: flex;
+            margin-top: 80px;
+            align-items: center;
+            justify-content: space-around;
+          
+            
+            .cierres{
+        
+                background-color: #aaa;
+                border: 1px solid black;
+                margin-right: 150px;
+                margin-bottom: 150px;
+            }
+            .cintas{
+                background-color: #aaa;
+                border: 1px solid black;
+                margin-left: 150px;
+                margin-bottom: 150px;
+            }
+            .hilos{
+                background-color: #aaa;
+                border: 1px solid black;
+                margin-right: 150px;
+                margin-bottom: 150px;
+            }
+            .guata{
+                background-color: #aaa;
+                border: 1px solid black;
+                margin-left: 150px;
+                margin-bottom: 150px;
+            }
+       
+
+        
+        }   
+        .parrafo {
+            font-size: 40px;
+            margin: 15px;
+            text-align: center;
+        }
+        .somos{
+            display: flex;
+            flex-direction: row;
+            border: 0;
+          
+        p{
+                font-size: 30px;
+                text-align: center;
+                }
+            
+   
+        } 
+        
+    .slogan1{
+        .subDatos{
+            margin-left: 400px;
+ 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h5{
+                
+                font-size: 40px;
+                margin-right: 560px;
+            }
+        }
+    }
+    .divForm { 
+
+        color: black;
+        font-size: 30px;
+        width: 600px;
+        textarea {
+            border: 6px solid $colorPrimario;
+
+            color: black;
+            font-size: 26px;
+ 
+        }
+        input {
+            border: 6px solid $colorPrimario;
+
+            color: black;
+            font-size: 26px;
+
+        }
+
+
+
+    
+    
+   
+}
+
+.slogan1{
+    display: flex;
+    justify-content: center;
+    
+}
+.slogan1 h5 {
+    font-size: 20px;
+    color: $colorPrimario;
+    margin-top: 50px;
+}
+
+}
 .main{
 
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 50px;
+    .sectionContactos{
+        width: 50%;
+        
+    }
+    .logoRedesContacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+        justify-content: space-evenly;
+        width: 50%;
+        .divInstagram{
+            display: flex;
+
+            h5{
+                font-size: 30px;
+
+            }
+            
+        }
+    }
+    .logosContacto{
+   
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        justify-content: space-evenly;
+        width: 50%;
+        .divDatos{
+            display: flex;
+
+            h5{
+                font-size: 30px;
+
+            }
+        }     
+    }
+
     .slogan{
+        margin-top: 30px;
+        border: 1px solid black;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         
         h2{
             font-size: 60px;
@@ -68,6 +299,91 @@
 
         
         }   
+  
+       
+    .slogan1{
+        .subDatos{
+            margin-left: 400px;
+ 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h5{
+                
+                font-size: 40px;
+                margin-right: 560px;
+            }
+        }
+    }
+    .divForm { 
+
+        color: black;
+        font-size: 30px;
+        width: 600px;
+        textarea {
+            border: 6px solid $colorPrimario;
+
+            color: black;
+            font-size: 26px;
+ 
+        }
+        input {
+            border: 6px solid $colorPrimario;
+
+            color: black;
+            font-size: 26px;
+
+        }
+
+
+
+    
+    
+   
+}
+
+.slogan1{
+    display: flex;
+    justify-content: center;
+    
+}
+.slogan1 h5 {
+    font-size: 20px;
+    color: $colorPrimario;
+    margin-top: 50px;
+}
+.maps{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px; 
+    width: 99%;   
+}
+
+    
+    
+        
+    }
+    .maps{
+        width: 99%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        iframe{
+            width: 100%;
+        }
+    }
+    .mainNos{
+      
+        .slogan{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            h2{
+                font-size: 60px;
+            }
+       
+        }
         .parrafo {
             font-size: 40px;
             margin: 15px;
@@ -76,32 +392,49 @@
         .somos{
             display: flex;
             flex-direction: row;
-            border: 0;
-            p{
-                font-size: 30px;
+            justify-content: space-between;
+            align-items: center;
+      
+            margin-top: 60px;
+          
+        p{
+                font-size: 25px;
+                margin-right: 50px;
                 text-align: center;
-            }
-            img:hover{
-                text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15), 2px 2px 2px rgba(12,89,7,0);
+                }
+            
+            .somos1{ 
+                margin-left: 50px;
+          
     
             }
+        }
 
-        } 
+        
         .somos3{
+     
             display: flex;
             flex-direction: row-reverse;
-            border: 0;
-            margin-left: 400px;
-            p{
-                font-size: 30px;
-                text-align: center;
-            }
-
-        } 
-
-         
+            justify-content: space-between;
+            align-items: center;
       
-}
+            margin-top: 60px;
+            .somos2{
+                margin-right: 50px;
+            }
+            
+            
+          
+            p{
+                font-size: 25px;
+                text-align: center;
+                margin-left: 50px;
+            
+            }
+        
+        } 
+    
+    }
 footer{
     display: flex;
     flex-direction: row-reverse;
