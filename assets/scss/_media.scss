@@ -1,6 +1,9 @@
 @media (min-width: 1200px){
+    body{
+        background-image: linear-gradient(to bottom, #fff, $colorPrimario) ;
+    }
     .navBar{
-        width: 100%;
+        width: 98%;
         position: fixed;
         top: 0;
         z-index: 30;
@@ -10,22 +13,35 @@
 
     
     .navegador{
-        height: 100px;
-        background-color: whitesmoke;
+        height: 80px;
+        background-color: rgb(18, 15, 15);
         font-size: 20px;
         justify-content: start;
     
     }
     .imgLogo{
-        margin-right: 25px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-right: 55px;
+       
+        width: 1080px;
+        img{
+            margin-right: 20px;
+            width: 150px;
+        }
+        h1{
+            font-size: 60px;
+             margin: 18px;
+             flex-wrap: wrap;
+             color: $colorPrimario;
+    }
     }
     
     .headerH1{
         margin-top: 150px;
-        h1{
-            font-size: 100px;
-             margin: 30px 5px 5px 5px;
-    }
+    
     .carouselFotos{
 
         height: 400px;
@@ -36,13 +52,19 @@
     }
 }
 .header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
     margin-top: 100px;
     h1{
-        font-size: 150px;
+        font-size: 110px;
+        margin-top: 50px;
     }
     img{
-        margin-top: 100px;
-        width: 800px;
+        margin-top: 50px;
+        width: 400px;
     }
 }
 .mainContacto{
@@ -103,28 +125,50 @@
             
             .cierres{
         
-                background-color: #aaa;
-                border: 1px solid black;
+                box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+               border: none;
                 margin-right: 150px;
                 margin-bottom: 150px;
+                img{
+                    margin-bottom: 10px;
+                    padding: 10px;
+                    border-radius: 200px;
+                }
             }
             .cintas{
-                background-color: #aaa;
-                border: 1px solid black;
-                margin-left: 150px;
-                margin-bottom: 150px;
+                box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+                border: none;
+                 margin-right: 150px;
+                 margin-bottom: 150px;
+                 img{
+                    width: 200px;
+                    margin-left: 40px;
+                     margin-bottom: 10px;
+                     padding: 20px;
+                     border-radius: 200px;
+                 }
             }
             .hilos{
-                background-color: #aaa;
-                border: 1px solid black;
+                box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+                border: none;
                 margin-right: 150px;
                 margin-bottom: 150px;
+                img{
+                    margin-bottom: 10px;
+                    padding: 10px;
+                    border-radius: 200px;
+                }
             }
             .guata{
-                background-color: #aaa;
-                border: 1px solid black;
-                margin-left: 150px;
+                box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+                border: none;
+                margin-right: 150px;
                 margin-bottom: 150px;
+                img{
+                    margin-bottom: 10px;
+                    padding: 10px;
+                    border-radius: 200px;
+                }
             }
        
 
@@ -177,9 +221,18 @@
         input {
             border: 6px solid $colorPrimario;
 
-            color: black;
+            color: rgb(255, 255, 255);
             font-size: 26px;
 
+        }
+        .btnBtn{
+            color: white;
+            .btn{
+                color: white;
+                .btn1{
+                    color: white;
+                }
+            }
         }
 
 
@@ -332,7 +385,24 @@
 
             color: black;
             font-size: 26px;
+           
 
+        }
+        .btnBtn{
+            
+            .btn{
+
+                .btn1{
+                    border: 1px solid black;
+                    color: white;
+                    width: 150px;
+                }
+                .btn2{
+                    border: 1px solid black;
+                    color: white;
+                    width: 150px;
+                }
+            }
         }
 
 
@@ -436,6 +506,7 @@
     
     }
 footer{
+    background-image: linear-gradient(to right, #1a3705, #2b6857, #6998a0, #bac8d5, #ffffff);
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;

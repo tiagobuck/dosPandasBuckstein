@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Merceria, por mayor, hilos, cierres, guata, tijeras">
+    <meta name="description" content="Merceria por mayor, entregas dentro de las 24hs en Montevideo.">
     <title>Dos Pandas - INICIO</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -34,7 +35,7 @@
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     PRODUCTOS
                 </a>
-                <ul class="dropdown-menu dropDown" aria-labelledby="navbarDropdownMenuLink">
+                <ul class="dropdown-menu dropDown menuMenu" aria-labelledby="navbarDropdownMenuLink">
                   <li><a class="dropdown-item" href="./pages/productos.html">Productos</a></li>
                   <li><a class="dropdown-item" href="./pages/cierres.html">Cierres</a></li>
                   <li><a class="dropdown-item" href="./pages/cintas.html">Cintas</a></li>
@@ -49,16 +50,18 @@
 
           
         </div>
-        <div class="m-0.5 p-1 col-1  col-md-1 col-xl-1 imgLogo">
+        <div class=" p-1 col-10  col-md-1 col-xl-1 imgLogo d-flex m-4 mb-0 mt-0">
           <img data-aos="fade-left"
             data-aos-offset="300"
-            data-aos-easing="ease-in-sine" class="img-fluid "  src="./assets/img/Isologo Merceria Final.png" alt="">
+            data-aos-easing="ease-in-sine" class=" col-3"  src="./assets/img/Isologo Merceria Final.png" alt="Logo dos pandas">
+            <h1 data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"class=" hH1 col-12 m-2">DOS PANDAS</h1>
           </div>
+          
       </nav>
     <header class="headerH1">
-        <h1 data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="1500"class="d-flex justify-content-center aling-items-center">DOS PANDAS</h1>
+
         <div id="carouselExampleCaptions" class="carousel slide carouselFotos" data-bs-ride="false">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -67,19 +70,19 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./assets/img/fondo3 (1).jpg" class="d-block w-100" alt="...">
+                <img src="./assets/img/fondo3 (1).jpg" class="d-block w-100" alt="img de hilos en blanco y  negro">
                 <div class="carousel-caption d-none d-md-block">
                   
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="./assets/img/imgConos2.jpg" class="d-block w-100" alt="...">
+                <img src="./assets/img/imgConos2.jpg" class="d-block w-100" alt="img de hilos a color">
                 <div class="carousel-caption d-none d-md-block">
                   
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="./assets/img/imgFooter.jpg" class="d-block w-100" alt="...">
+                <img src="./assets/img/imgFooter.jpg" class="d-block w-100" alt="img articulos basicos de merceria">
                 <div class="carousel-caption d-none d-md-block">
                   
                 </div>
@@ -97,14 +100,14 @@
     </header>
     <main class="mainIndex">
         <div class="slogan">
-            <h2 class="col-12 col-md-10 col-xl-12 d-flex justify-content-center">Merceria por mayor</h2>
-            <h3 class="col-10 col-md-10 col-xl-12 d-flex justify-content-center">"Vendemos calidad y servicio"</h3>
+            <h2 class="col-12 col-md-10 col-xl-12 d-flex justify-content-center m-3"><strong>Merceria por mayor</strong></h2>
+            <h3 class="col-12 col-md-10 col-xl-12 d-flex justify-content-center m-3">"Vendemos calidad y servicio"</h3>
         </div>
         <section class="section">
             <div class="subTitulo">
-                <h3 class="col-12 col-md-12 col-xl-12 d-flex justify-content-center">Algunos de nuestros productos</h3>
+                <h3 class="col-12 col-md-12 col-xl-12 d-flex justify-content-center">Algunos de nuestros <strong>productos</strong></h3>
             </div>
-            <div class="tarjetas">
+            <div class="tarjetas d-flex flex-column justify-content-center align-items-center m-4">
               <div class="card cards col-10 col-md-6 col-xl-5 cierres" style="width: 18rem;">
                 <img src="./assets/img/cierres2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -113,7 +116,7 @@
                   <a href="./pages/cierres.html" class="btn btn-primary boton">VER</a>
                 </div>
               </div>
-              <div class="card cards col-10 col-md-5 col-xl-5 cintas" style="width: 18rem;">
+              <div class="card cards col-10 col-md-5 col-xl-5 cintas m-4" style="width: 18rem;">
                 <img src="./assets/img/cintaraso2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Cintas</h5>
@@ -122,7 +125,7 @@
                 </div>
               </div>    
             </div>
-            <div class="tarjetas"> 
+            <div class="tarjetas d-flex flex-column justify-content-center align-items-center m-4"> 
               <div class="card cards col-10 col-md-5 col-xl-5 hilos" style="width: 18rem;">
                 <img src="./assets/img/conosHilo2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -131,7 +134,7 @@
                   <a href="./pages/hilos.html" class="btn btn-primary boton">VER</a>
                 </div>
               </div>
-              <div class="card cards col-10 col-md-5 col-xl-5 guata" style="width: 18rem;">
+              <div class="card cards col-10 col-md-5 col-xl-5 guata m-4" style="width: 18rem;">
                 <img src="./assets/img/guataRollo.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Guata</h5>
