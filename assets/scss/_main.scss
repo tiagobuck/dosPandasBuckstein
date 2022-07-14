@@ -1,4 +1,4 @@
-.main{
+.mainIndex{
 
     display: flex;
     flex-direction: column;
@@ -280,3 +280,44 @@
     
 }
 
+.mainIndex{
+    section{
+   
+    .tarjetas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 50px;
+    
+        .cierres{
+            box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+            margin-top: 15px;
+            margin-bottom: 25px;
+            
+            
+        }
+        .cintas{
+            box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 200px;
+                margin-top: 10px;
+            }
+            
+            
+        }
+        .hilos{
+            box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+        }
+        .guata{
+            
+                box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+            
+        }
+
+    }
+}
+}

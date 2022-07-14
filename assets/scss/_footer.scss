@@ -1,12 +1,27 @@
 
-footer{
- 
-    background-color: $colorPrimario;
-    .copi h5{
-        color: white;
-        font-size: 14px;
-        margin-top: 10px;
+.footerIndex{
+    background-image: linear-gradient(to right, #1a3705, #2b6857, #6998a0, #bac8d5, #ffffff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .footImg {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 25px;
+        margin-top: 15px;
     }
+    .copi{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        h5{
+            font-size: 15px;
+        }
 
-    
+
+    }
 }
