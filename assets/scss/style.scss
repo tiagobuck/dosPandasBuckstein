@@ -6,24 +6,9 @@
 @import "productos";
 @import "footer";
 @import "media";
-@import "tijeras";
 
 
 
 
 
-$colores:(
-    primario:rgb(26, 71, 38),
-    secundario: rgb(223, 226, 204),
-    terceario: rgb(5, 104, 31)
 
-);
-
-
-@each $key , $var in $colores {
-    .boton1-#{$key}{
-        background-color: $var;
-    }
-
-    
-}

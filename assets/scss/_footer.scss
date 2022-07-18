@@ -1,27 +1,52 @@
 
 .footerIndex{
     background-image: linear-gradient(to right, #1a3705, #2b6857, #6998a0, #bac8d5, #ffffff);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    width: 99%;
+   
+  
+
     .footImg {
+       
         display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        justify-content: space-evenly;
-        margin-bottom: 25px;
-        margin-top: 15px;
-    }
-    .copi{
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        h5{
-            font-size: 15px;
+        
+        
+
+        
+
+        
+  
+        .logos{
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+         
+
+          
+
+            a{
+                img{
+                    width: 64px;
+                    margin: 15px;
+                }
+            }
+            
         }
-
-
+        .copi{
+        
+            h5{
+                color: black;
+                font-size: 12px;
+                padding: 10px;
+                margin: 10px;
+            }
+    
+    
+        }
+  
     }
+ 
 }

@@ -293,24 +293,25 @@
 
 .footerIndex {
   background-image: linear-gradient(to right, #1a3705, #2b6857, #6998a0, #bac8d5, #ffffff);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; }
+  width: 99%; }
   .footerIndex .footImg {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: 25px;
-    margin-top: 15px; }
-  .footerIndex .copi {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    margin-top: 20px;
-    margin-bottom: 20px; }
-    .footerIndex .copi h5 {
-      font-size: 15px; }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .footerIndex .footImg .logos {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: center; }
+      .footerIndex .footImg .logos a img {
+        width: 64px;
+        margin: 15px; }
+    .footerIndex .footImg .copi h5 {
+      color: black;
+      font-size: 12px;
+      padding: 10px;
+      margin: 10px; }
 
 @media (min-width: 992px) {
   .navegador {
@@ -511,239 +512,277 @@
   body {
     background-image: linear-gradient(to bottom, #fff, #1a4726); }
   .navBar {
-    width: 98%;
+    width: 100%;
     position: fixed;
     top: 0;
     z-index: 30; }
   .navegador {
-    height: 80px;
+    color: black;
+    background-color: whitesmoke;
     font-size: 20px;
-    justify-content: start;
-    color: black; }
+    justify-content: start; }
     .navegador ul li a {
       color: black; }
     .navegador ul li :hover {
       font-size: 30px;
-      color: black; }
-    .navegador .menuMenu li a {
-      color: black; }
+      color: #1a4726; }
   .imgLogo {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     margin-right: 5px;
-    width: 700px; }
+    width: 500px;
+    margin-bottom: 120px; }
     .imgLogo img {
-      margin-right: 0px;
-      width: 150px; }
+      margin-right: 0;
+      width: 100px; }
     .imgLogo h1 {
-      font-size: 50px;
+      font-size: 40px;
       margin: 8px;
       flex-wrap: wrap;
       color: #1a4726; }
-  .headerH1 {
-    margin-top: 150px; }
-    .headerH1 .carouselFotos {
+  .menuMenu li a {
+    color: black; } }
+
+.imgLogo {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  width: 50%; }
+  .imgLogo img {
+    margin-right: 0px;
+    width: 120px; }
+  .imgLogo h1 {
+    font-size: 50px;
+    margin: 8px;
+    flex-wrap: wrap;
+    color: #1a4726; }
+
+.headerH1 {
+  margin-top: 150px; }
+  .headerH1 .carouselFotos {
+    height: 400px; }
+    .headerH1 .carouselFotos img {
       height: 400px; }
-      .headerH1 .carouselFotos img {
-        height: 400px; }
-  .header {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    margin-top: 100px; }
-    .header h1 {
-      font-size: 110px;
-      margin-top: 50px; }
-    .header img {
-      margin-top: 50px;
-      width: 400px; }
-  .mainContacto {
+
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px; }
+  .header h1 {
+    font-size: 110px;
+    margin-top: 50px; }
+  .header img {
+    margin-top: 50px;
+    width: 400px; }
+
+.mainContacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  justify-content: start; }
+  .mainContacto .divForm {
+    margin-right: 200px; }
+
+.mainIndex {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 50px; }
+  .mainIndex .slogan {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
-    justify-content: start; }
-    .mainContacto .divForm {
-      margin-right: 200px; }
-  .mainIndex {
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-top: 50px; }
-    .mainIndex .slogan {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin-top: 30px;
-      margin-bottom: 20px;
-      width: 100%;
-      display: flex;
-      flex-direction: column; }
-      .mainIndex .slogan h2 {
-        color: #1a4726;
-        margin-bottom: 50px;
-        font-size: 100px; }
-      .mainIndex .slogan h3 {
-        color: #1a4726;
-        font-size: 40px; }
-    .mainIndex .section {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center; }
-      .mainIndex .section .subTitulo h3 {
-        color: #1a4726;
-        margin-top: 30px;
-        font-size: 40px; }
-      .mainIndex .section .tarjetas {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin-left: 0; }
-        .mainIndex .section .tarjetas .cierres {
-          box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3);
-          margin-top: 0;
-          margin-bottom: 25px; }
-        .mainIndex .section .tarjetas .cintas {
-          box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3);
-          display: flex;
-          justify-content: center;
-          align-items: center; }
-          .mainIndex .section .tarjetas .cintas img {
-            width: 200px;
-            margin-top: 10px; }
-        .mainIndex .section .tarjetas .hilos {
-          box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3); }
-        .mainIndex .section .tarjetas .guata {
-          box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3); }
-  .parrafo {
-    font-size: 40px;
-    margin: 15px;
-    text-align: center; }
-  .somos {
+    flex-direction: column; }
+    .mainIndex .slogan h2 {
+      color: #1a4726;
+      margin-bottom: 50px;
+      font-size: 100px; }
+    .mainIndex .slogan h3 {
+      color: #1a4726;
+      font-size: 40px; }
+  .mainIndex .section {
     display: flex;
     flex-direction: row;
-    border: 0; }
-    .somos p {
-      font-size: 30px;
-      text-align: center; }
-  .slogan1 .subDatos {
-    margin-left: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-    .slogan1 .subDatos h5 {
-      font-size: 40px;
-      margin-right: 560px; }
-  .divForm {
-    color: #1a4726;
-    font-size: 10px; }
-    .divForm textarea {
-      border: 4px solid #1a4726;
-      border-radius: 15px;
-      background-color: #d0ffe5;
-      color: black;
-      font-size: 18px;
-      padding: 5px;
-      margin: 5px 5px 1px 5px; }
-    .divForm input {
-      border: 4px solid #1a4726;
-      border-radius: 15px;
-      background-color: #d0ffe5;
-      color: white;
-      font-size: 20px;
-      padding: 5px;
-      margin: 10px; }
-    .divForm .formularioContacto {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-      margin-left: 30px;
-      margin-top: 5px;
-      padding: 20px;
-      margin-bottom: 40px; }
-    .divForm .formulariocontacto div {
-      margin-top: 15px;
-      border-radius: 60px; }
-    .divForm .btnBtn {
-      display: flex;
-      flex-direction: row;
-      margin-bottom: 15px; }
-    .divForm .btnBtn input {
-      background-color: #1a4726;
-      font-size: 24px;
-      align-items: center;
-      margin: 1px;
-      font-style: none;
-      text-decoration: none; }
-  .logoRedesContacto {
-    display: flex;
-    flex-direction: column;
-    margin-right: 5px;
-    padding: 10px;
-    width: auto;
-    justify-content: space-evenly; }
-  .logoRedesContacto img {
-    width: 30px;
-    margin-bottom: 30px; }
-  .logoRedesContacto h5 {
-    display: flex; }
-  .logosContacto img {
-    width: 30px; }
-  .logosContacto {
-    display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
-    margin-right: 10px;
-    justify-content: space-between;
-    width: auto; }
-  .sectionContactos {
-    margin: 6px;
-    padding: 6px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-items: center; }
-  .divInstagram {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    margin-bottom: 10px; }
-  .divInstagram h5 {
-    margin-bottom: 30px;
-    margin-left: 15px;
-    font-size: 15px;
-    color: #1a4726;
-    align-items: center; }
-  .divDatos {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    margin-bottom: 80px; }
-  .divDatos h5 {
-    font-size: 19px;
-    margin-left: 5px;
-    color: #1a4726; }
-  .slogan1 {
-    display: flex;
-    justify-content: center; }
-  .slogan1 h5 {
-    font-size: 20px;
-    color: #1a4726;
-    margin-top: 50px; }
-  .maps {
-    display: flex;
     justify-content: center;
-    margin-bottom: 50px;
-    width: 99%; } }
+    align-items: center; }
+    .mainIndex .section .subTitulo h3 {
+      color: #1a4726;
+      margin-top: 30px;
+      font-size: 40px; }
+    .mainIndex .section .tarjetas {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-left: 0; }
+      .mainIndex .section .tarjetas .cierres {
+        box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3);
+        margin-top: 0;
+        margin-bottom: 25px; }
+      .mainIndex .section .tarjetas .cintas {
+        box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .mainIndex .section .tarjetas .cintas img {
+          width: 200px;
+          margin-top: 10px; }
+      .mainIndex .section .tarjetas .hilos {
+        box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3); }
+      .mainIndex .section .tarjetas .guata {
+        box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3); }
+
+.parrafo {
+  font-size: 40px;
+  margin: 15px;
+  text-align: center; }
+
+.somos {
+  display: flex;
+  flex-direction: row;
+  border: 0; }
+  .somos p {
+    font-size: 30px;
+    text-align: center; }
+
+.slogan1 .subDatos {
+  margin-left: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .slogan1 .subDatos h5 {
+    font-size: 40px;
+    margin-right: 560px; }
+
+.divForm {
+  color: #1a4726;
+  font-size: 10px; }
+  .divForm textarea {
+    border: 4px solid #1a4726;
+    border-radius: 15px;
+    background-color: #d0ffe5;
+    color: black;
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px 5px 1px 5px; }
+  .divForm input {
+    border: 4px solid #1a4726;
+    border-radius: 15px;
+    background-color: #d0ffe5;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px; }
+  .divForm .formularioContacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 5px;
+    padding: 20px;
+    margin-bottom: 40px; }
+  .divForm .formulariocontacto div {
+    margin-top: 15px;
+    border-radius: 60px; }
+  .divForm .btnBtn {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px; }
+  .divForm .btnBtn input {
+    background-color: #1a4726;
+    font-size: 24px;
+    align-items: center;
+    margin: 1px;
+    font-style: none;
+    text-decoration: none; }
+
+.logoRedesContacto {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+  padding: 10px;
+  width: auto;
+  justify-content: space-evenly; }
+
+.logoRedesContacto img {
+  width: 30px;
+  margin-bottom: 30px; }
+
+.logoRedesContacto h5 {
+  display: flex; }
+
+.logosContacto img {
+  width: 30px; }
+
+.logosContacto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-right: 10px;
+  justify-content: space-between;
+  width: auto; }
+
+.sectionContactos {
+  margin: 6px;
+  padding: 6px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-items: center; }
+
+.divInstagram {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-bottom: 10px; }
+
+.divInstagram h5 {
+  margin-bottom: 30px;
+  margin-left: 15px;
+  font-size: 15px;
+  color: #1a4726;
+  align-items: center; }
+
+.divDatos {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-bottom: 80px; }
+
+.divDatos h5 {
+  font-size: 19px;
+  margin-left: 5px;
+  color: #1a4726; }
+
+.slogan1 {
+  display: flex;
+  justify-content: center; }
+
+.slogan1 h5 {
+  font-size: 20px;
+  color: #1a4726;
+  margin-top: 50px; }
+
+.maps {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  width: 99%; }
 
 .mainNos .slogan {
   display: flex;
@@ -784,167 +823,25 @@
     margin-left: 50px; }
 
 .footerIndex {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  justify-content: space-evenly; }
+  background-image: linear-gradient(to bottom, #1a3705, #2b6857, #6998a0, #bac8d5, #ffffff);
+  width: 99%;
+  border: 0; }
   .footerIndex .footImg {
+    border: 1px solid #c43a3a;
     display: flex;
-    justify-content: space-evenly;
-    padding-right: 100px;
-    margin-bottom: 25px;
-    margin-top: 15px; }
-  .footerIndex .copi {
-    display: flex;
-    flex-wrap: nowrap;
+    flex-direction: row-reverse;
     justify-content: center;
-    margin-left: 0px;
-    margin-top: 20px;
-    margin-bottom: 20px; }
-    .footerIndex .copi h5 {
-      font-size: 20px;
-      color: #FFFFFF; }
-
-.justificado-contenido-start {
-  justify-content: start; }
-
-.justificado-contenido-centro {
-  justify-content: centro; }
-
-.justificado-contenido-end {
-  justify-content: end; }
-
-.justificado-contenido-around {
-  justify-content: space-around; }
-
-.justificado-contenido-between {
-  justify-content: space-between; }
-
-.justificado-contenido-evenly {
-  justify-content: space-evenly; }
-
-.boton1-primario {
-  background-color: #1a4726; }
-
-.boton1-secundario {
-  background-color: #dfe2cc; }
-
-.boton1-terceario {
-  background-color: #05681f; }
-
-.row {
-  display: flex;
-  flex-wrap: wrap; }
-
-colum-1 {
-  width: 10%; }
-
-colum-2 {
-  width: 20%; }
-
-colum-3 {
-  width: 30%; }
-
-colum-4 {
-  width: 40%; }
-
-colum-5 {
-  width: 50%; }
-
-colum-6 {
-  width: 60%; }
-
-colum-7 {
-  width: 70%; }
-
-colum-8 {
-  width: 80%; }
-
-colum-9 {
-  width: 90%; }
-
-colum-10 {
-  width: 100%; }
-
-@media (min-width: 768px) {
-  colum-md-1 {
-    width: 10%; }
-  colum-md-2 {
-    width: 20%; }
-  colum-md-3 {
-    width: 30%; }
-  colum-md-4 {
-    width: 40%; }
-  colum-md-5 {
-    width: 50%; }
-  colum-md-6 {
-    width: 60%; }
-  colum-md-7 {
-    width: 70%; }
-  colum-md-8 {
-    width: 80%; }
-  colum-md-9 {
-    width: 90%; }
-  colum-md-10 {
-    width: 100%; } }
-
-@media (min-width: 1200px) {
-  colum-xl-1 {
-    width: 10%; }
-  colum-xl-2 {
-    width: 20%; }
-  colum-xl-3 {
-    width: 30%; }
-  colum-xl-4 {
-    width: 40%; }
-  colum-xl-5 {
-    width: 50%; }
-  colum-xl-6 {
-    width: 60%; }
-  colum-xl-7 {
-    width: 70%; }
-  colum-xl-8 {
-    width: 80%; }
-  colum-xl-9 {
-    width: 90%; }
-  colum-xl-10 {
-    width: 100%; } }
-
-.sectionTijera {
-  border: 1px solid black; }
-
-.cierresTijera {
-  border: 1px solid black; }
-
-.tarjetas1 {
-  display: flex;
-  margin: 10px;
-  padding: 5px; }
-
-.botonn, .btn1-primario, .btn1-secundario, .btn1-terceario {
-  border: 0;
-  padding: 15px 10px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 15px;
-  width: 160px;
-  height: 100px;
-  color: #1a4726; }
-
-.btn1-primario {
-  background-color: #1a4726; }
-
-.btn1-secundario {
-  background-color: #dfe2cc; }
-
-.btn1-terceario {
-  background-color: #05681f; }
-
-.boton1-primario {
-  background-color: #1a4726; }
-
-.boton1-secundario {
-  background-color: #dfe2cc; }
-
-.boton1-terceario {
-  background-color: #05681f; }
+    align-items: center; }
+    .footerIndex .footImg .logos {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center; }
+      .footerIndex .footImg .logos a img {
+        width: 64px;
+        margin: 1px; }
+    .footerIndex .footImg .copi h5 {
+      color: black;
+      font-size: 12px;
+      padding: 1px;
+      margin: 1px; }
