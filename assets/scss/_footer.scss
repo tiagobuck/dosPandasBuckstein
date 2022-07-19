@@ -1,31 +1,14 @@
 
 .footerIndex{
-    background-image: linear-gradient(to right, #1a3705, #2b6857, #6998a0, #bac8d5, #ffffff);
-    width: 99%;
-   
-  
+    background-color: rgba(0, 0, 0, 0.349);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-    .footImg {
-       
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-        
-
-        
-
-        
-  
         .logos{
             display: flex;
-            flex-wrap: nowrap;
-            align-items: center;
             justify-content: center;
-         
-
-          
 
             a{
                 img{
@@ -36,12 +19,19 @@
             
         }
         .copi{
+            display: flex;
+            justify-content: space-evenly;
+            
         
             h5{
                 color: black;
-                font-size: 12px;
+                font-size: 24px;
                 padding: 10px;
                 margin: 10px;
+            }
+            .logoFooter{
+                width: 150px;
+                padding: 15px;
             }
     
     
@@ -49,4 +39,3 @@
   
     }
  
-}

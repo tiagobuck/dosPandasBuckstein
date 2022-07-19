@@ -66,7 +66,8 @@
     .mainIndex .sectionIndex .subTitulo {
       margin: 10px 5px 55px 5px;
       font-size: 18px;
-      text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15), 2px 2px 2px rgba(12, 89, 7, 0); }
+      text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15), 2px 2px 2px rgba(12, 89, 7, 0);
+      color: #1a4726; }
     .mainIndex .sectionIndex .tarjetas {
       margin: 25px; }
       .mainIndex .sectionIndex .tarjetas .cierres {
@@ -305,23 +306,25 @@
   width: 50px; }
 
 .footerIndex {
-  background-image: linear-gradient(to right, #1a3705, #2b6857, #6998a0, #bac8d5, #ffffff);
-  width: 99%; }
-  .footerIndex .footImg {
+  background-color: rgba(0, 0, 0, 0.349);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .footerIndex .logos {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    .footerIndex .footImg .logos {
-      display: flex;
-      flex-wrap: nowrap;
-      align-items: center;
-      justify-content: center; }
-      .footerIndex .footImg .logos a img {
-        width: 64px;
-        margin: 15px; }
-    .footerIndex .footImg .copi h5 {
+    justify-content: center; }
+    .footerIndex .logos a img {
+      width: 64px;
+      margin: 15px; }
+  .footerIndex .copi {
+    display: flex;
+    justify-content: space-evenly; }
+    .footerIndex .copi h5 {
       color: black;
-      font-size: 12px;
+      font-size: 24px;
       padding: 10px;
       margin: 10px; }
+    .footerIndex .copi .logoFooter {
+      width: 150px;
+      padding: 15px; }
