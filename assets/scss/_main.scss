@@ -1,21 +1,30 @@
 .mainIndex{
-
+    background-image: linear-gradient(to bottom, #fff, $colorPrimario) ;
+    width: 100%;
+    border: 2px solid black;
     display: flex;
     flex-direction: column;
+  
+    
+
     
     .slogan{
         display: flex;
         flex-direction: column;
         align-items: center;
         
+      
+        
         h2{
-            font-size: 40px;
+            font-size: 60px;
             margin-top: 25px;
             padding: 10px;
             color: $colorPrimario;
+            transition: all 3s;
+          
             }
             h3{
-                font-size: 25px;
+                font-size: 45px;
                 margin-top: 10px;
                 margin-bottom: 25px;
                 color: $colorPrimario;
@@ -23,24 +32,50 @@
        
        
     }
-    .section{
+    .sectionIndex{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 10px;
-        div{
-            margin: 15px;
-    }
-    h3{
-        color: $colorPrimario;
-   
-    }
-    .subTitulo{
-        margin: 10px 5px 35px 5px;
-        font-size: 18px;
+        .subTitulo{
+            margin: 10px 5px 55px 5px;
+            font-size: 18px;
+    
+            text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15), 2px 2px 2px rgba(12,89,7,0);
+        }
+        .tarjetas{
+            margin: 25px;
+            
+            .cierres{
+                margin-bottom: 50px;
+                box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+              
+            }
+            .cintas{
+                box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+                img{
+                    padding: 40px;                    
+                    margin-top: 20px;
+                }
+            }
+            .hilos{
+                margin-bottom: 50px;
+                box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+                img{
+                    padding: 40px;
+                }
+            }
+            .guata{
+                box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+                img{
+                    padding: 40px;
+                }
+            }
 
-        text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15), 2px 2px 2px rgba(12,89,7,0);
+        }
     }
+
+    
+    
     .boton{
         display: flex;
         flex-direction: column;
@@ -278,46 +313,5 @@
         width: 99%;   
     }
     
-}
 
-.mainIndex{
-    section{
-   
-    .tarjetas{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-left: 50px;
-    
-        .cierres{
-            box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
-            margin-top: 15px;
-            margin-bottom: 25px;
-            
-            
-        }
-        .cintas{
-            box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            img{
-                width: 200px;
-                margin-top: 10px;
-            }
-            
-            
-        }
-        .hilos{
-            box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
-        }
-        .guata{
-            
-                box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
-            
-        }
 
-    }
-}
-}

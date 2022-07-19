@@ -39,6 +39,9 @@
   font-size: 50px; }
 
 .mainIndex {
+  background-image: linear-gradient(to bottom, #fff, #1a4726);
+  width: 100%;
+  border: 2px solid black;
   display: flex;
   flex-direction: column; }
   .mainIndex .slogan {
@@ -46,627 +49,97 @@
     flex-direction: column;
     align-items: center; }
     .mainIndex .slogan h2 {
-      font-size: 40px;
+      font-size: 60px;
       margin-top: 25px;
       padding: 10px;
-      color: #1a4726; }
+      color: #1a4726;
+      transition: all 3s; }
     .mainIndex .slogan h3 {
-      font-size: 25px;
+      font-size: 45px;
       margin-top: 10px;
       margin-bottom: 25px;
       color: #1a4726; }
-  .mainIndex .section {
+  .mainIndex .sectionIndex {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 10px; }
-    .mainIndex .section div {
-      margin: 15px; }
-    .mainIndex .section h3 {
-      color: #1a4726; }
-    .mainIndex .section .subTitulo {
-      margin: 10px 5px 35px 5px;
+    align-items: center; }
+    .mainIndex .sectionIndex .subTitulo {
+      margin: 10px 5px 55px 5px;
       font-size: 18px;
       text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15), 2px 2px 2px rgba(12, 89, 7, 0); }
-    .mainIndex .section .boton {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      background-color: #1a4726; }
-      .mainIndex .section .boton:hover {
-        background-color: #559265; }
-  .mainIndex .parrafo {
-    margin: 18px;
-    font-size: 20px; }
-    .mainIndex .parrafo p {
-      padding: 15px;
-      align-items: center;
-      line-height: 40px; }
-  .mainIndex .somos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 20px;
-    border-radius: 30px;
-    margin-bottom: 25px;
-    border: 1px solid black;
-    margin: 25px; }
-    .mainIndex .somos img {
-      padding: 30px;
-      width: 300px; }
-    .mainIndex .somos p {
-      font-size: 25px;
-      padding: 15px; }
-  .mainIndex .somos3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 20px;
-    border-radius: 30px;
-    margin-bottom: 25px;
-    border: 1px solid black;
-    margin: 25px; }
-    .mainIndex .somos3 img {
-      padding: 30px;
-      width: 300px; }
-    .mainIndex .somos3 p {
-      font-size: 25px;
-      padding: 15px; }
-  .mainIndex .subDatos {
-    margin-top: 25px; }
-    .mainIndex .subDatos h5 {
-      color: #1a4726;
-      font-size: 35px; }
-  .mainIndex .divForm {
-    color: #1a4726;
-    font-size: 10px; }
-    .mainIndex .divForm textarea {
-      border: 4px solid #1a4726;
-      border-radius: 15px;
-      background-color: #d0ffe5;
-      color: black;
-      font-size: 18px;
-      padding: 5px;
-      margin: 5px 5px 1px 5px; }
-    .mainIndex .divForm input {
-      border: 4px solid #1a4726;
-      border-radius: 15px;
-      background-color: #d0ffe5;
-      color: white;
-      font-size: 20px;
-      padding: 5px;
-      margin: 10px; }
-    .mainIndex .divForm .formularioContacto {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-      margin-left: 30px;
-      margin-top: 5px;
-      padding: 20px;
-      margin-bottom: 40px; }
-    .mainIndex .divForm .formulariocontacto div {
-      margin-top: 15px;
-      border-radius: 60px; }
-    .mainIndex .divForm .btnBtn {
-      display: flex;
-      flex-direction: row;
-      margin-bottom: 15px; }
-    .mainIndex .divForm .btnBtn input {
-      background-color: #1a4726;
-      font-size: 24px;
-      align-items: center;
-      margin: 1px;
-      font-style: none;
-      text-decoration: none; }
-  .mainIndex .logoRedesContacto {
-    display: flex;
-    flex-direction: column;
-    margin-right: 5px;
-    padding: 10px;
-    width: auto;
-    justify-content: space-evenly; }
-  .mainIndex .logoRedesContacto img {
-    width: 30px;
-    margin-bottom: 30px; }
-  .mainIndex .logoRedesContacto h5 {
-    display: flex; }
-  .mainIndex .logosContacto img {
-    width: 30px; }
-  .mainIndex .logosContacto {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-right: 10px;
-    justify-content: space-between;
-    width: auto; }
-  .mainIndex .sectionContactos {
-    margin: 6px;
-    padding: 6px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-items: center; }
-  .mainIndex .divInstagram {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    margin-bottom: 10px; }
-  .mainIndex .divInstagram h5 {
-    margin-bottom: 30px;
-    margin-left: 15px;
-    font-size: 15px;
-    color: #1a4726;
-    align-items: center; }
-  .mainIndex .divDatos {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    margin-bottom: 80px; }
-  .mainIndex .divDatos h5 {
-    font-size: 19px;
-    margin-left: 5px;
-    color: #1a4726; }
-  .mainIndex .slogan1 {
-    display: flex;
-    justify-content: center; }
-  .mainIndex .slogan1 h5 {
-    font-size: 20px;
-    color: #1a4726;
-    margin-top: 50px; }
-  .mainIndex .maps {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    width: 99%; }
-
-.mainIndex section .tarjetas {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-left: 50px; }
-  .mainIndex section .tarjetas .cierres {
-    box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3);
-    margin-top: 15px;
-    margin-bottom: 25px; }
-  .mainIndex section .tarjetas .cintas {
-    box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3);
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .mainIndex section .tarjetas .cintas img {
-      width: 200px;
-      margin-top: 10px; }
-  .mainIndex section .tarjetas .hilos {
-    box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3); }
-  .mainIndex section .tarjetas .guata {
-    box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3); }
-
-.mono {
-  display: flex;
-  flex-wrap: wrap;
-  justify-items: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 10px;
-  padding: 15px;
-  color: #1a4726; }
-
-.mono h4 {
-  font-size: 40px;
-  margin-bottom: 15px; }
-
-.mono p {
-  color: black;
-  font-size: 16px;
-  line-height: 25px; }
-
-.cierreMono1 {
-  display: flex;
-  margin-top: 20px; }
-
-.mono1 {
-  width: 180px; }
-
-.mono2 {
-  width: 180px; }
-
-.mono3 {
-  width: 360px;
-  margin-bottom: 20px; }
-
-.ddp1 {
-  width: 250px;
-  height: 250px; }
-
-.ddp2 {
-  width: 250px;
-  height: 250px; }
-
-.ddp {
-  margin-top: 20px; }
-
-.hilo2 {
-  width: 50px; }
-
-.footerIndex {
-  background-image: linear-gradient(to right, #1a3705, #2b6857, #6998a0, #bac8d5, #ffffff);
-  width: 99%; }
-  .footerIndex .footImg {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    .footerIndex .footImg .logos {
-      display: flex;
-      flex-wrap: nowrap;
-      align-items: center;
-      justify-content: center; }
-      .footerIndex .footImg .logos a img {
-        width: 64px;
-        margin: 15px; }
-    .footerIndex .footImg .copi h5 {
-      color: black;
-      font-size: 12px;
-      padding: 10px;
-      margin: 10px; }
-
-@media (min-width: 992px) {
-  .navegador {
-    color: black;
-    background-color: whitesmoke;
-    font-size: 20px;
-    justify-content: start; }
-    .navegador ul li a {
-      color: black; }
-    .navegador ul li :hover {
-      font-size: 30px;
-      color: #1a4726; }
-  .imgLogo {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    margin-right: 5px;
-    width: 500px;
-    margin-bottom: 120px; }
-    .imgLogo img {
-      margin-right: 0;
-      width: 100px; }
-    .imgLogo h1 {
-      font-size: 40px;
-      margin: 8px;
-      flex-wrap: wrap;
-      color: #1a4726; }
-  .headerH1 h1 {
-    font-size: 100px;
-    margin: 30px 5px 5px 5px; }
-  .headerH1 .carouselFotos {
-    height: 400px; }
-    .headerH1 .carouselFotos img {
-      height: 400px; }
-  .main .slogan h2 {
-    font-size: 60px; }
-  .main .slogan h3 {
-    font-size: 40px; }
-  .main .subTitulo {
-    display: flex; }
-    .main .subTitulo h3 {
-      font-size: 50px; }
-  .main .tarjetas {
-    display: flex; }
-    .main .tarjetas .cierres {
-      border: 0px;
-      margin-right: 150px; }
-    .main .tarjetas .cintas {
-      border: 0px;
-      margin-left: 150px; }
-    .main .tarjetas .hilos {
-      border: 0px;
-      margin-right: 150px; }
-    .main .tarjetas .guata {
-      border: 0;
-      margin-left: 150px; }
-  .main .parrafo {
-    font-size: 40px;
-    margin: 15px;
-    text-align: center; }
-  .main .somos {
-    display: flex;
-    flex-direction: row;
-    border: 0; }
-    .main .somos p {
-      font-size: 30px;
-      text-align: center; }
-    .main .somos img:hover {
-      text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15), 2px 2px 2px rgba(12, 89, 7, 0); }
-  .main .somos3 {
-    display: flex;
-    flex-direction: row-reverse;
-    border: 0;
-    margin-left: 4px; }
-    .main .somos3 p {
-      font-size: 30px;
-      text-align: center; }
-  .divForm {
-    color: #1a4726;
-    font-size: 10px; }
-    .divForm textarea {
-      border: 4px solid #1a4726;
-      border-radius: 15px;
-      background-color: #d0ffe5;
-      color: black;
-      font-size: 18px;
-      padding: 5px;
-      margin: 5px 5px 1px 5px; }
-    .divForm input {
-      border: 4px solid #1a4726;
-      border-radius: 15px;
-      background-color: #d0ffe5;
-      color: white;
-      font-size: 20px;
-      padding: 5px;
-      margin: 10px; }
-    .divForm .formularioContacto {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-      margin-left: 30px;
-      margin-top: 5px;
-      padding: 20px;
-      margin-bottom: 40px; }
-    .divForm .formulariocontacto div {
-      margin-top: 15px;
-      border-radius: 60px; }
-    .divForm .btnBtn {
-      display: flex;
-      flex-direction: row;
-      margin-bottom: 15px; }
-    .divForm .btnBtn input {
-      background-color: #1a4726;
-      font-size: 24px;
-      align-items: center;
-      margin: 1px;
-      font-style: none;
-      text-decoration: none; }
-  .logoRedesContacto {
-    display: flex;
-    flex-direction: column;
-    margin-right: 5px;
-    padding: 10px;
-    width: auto;
-    justify-content: space-evenly; }
-  .logoRedesContacto img {
-    width: 30px;
-    margin-bottom: 30px; }
-  .logoRedesContacto h5 {
-    display: flex; }
-  .logosContacto img {
-    width: 30px; }
-  .logosContacto {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-right: 10px;
-    justify-content: space-between;
-    width: auto; }
-  .sectionContactos {
-    margin: 6px;
-    padding: 6px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-items: center; }
-  .divInstagram {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    margin-bottom: 10px; }
-  .divInstagram h5 {
-    margin-bottom: 30px;
-    margin-left: 15px;
-    font-size: 15px;
-    color: #1a4726;
-    align-items: center; }
-  .divDatos {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    margin-bottom: 80px; }
-  .divDatos h5 {
-    font-size: 19px;
-    margin-left: 5px;
-    color: #1a4726; }
-  .slogan1 {
-    display: flex;
-    justify-content: center; }
-  .slogan1 h5 {
-    font-size: 20px;
-    color: #1a4726;
-    margin-top: 50px; }
-  .maps {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    width: 99%; }
-  footer {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between; }
-    footer .footImg {
-      margin-left: 70px;
-      justify-items: end;
-      justify-content: end; }
-      footer .footImg a img {
-        width: 100px; }
-  .copi {
-    align-items: end;
-    margin: 0;
-    padding: 0;
-    margin-right: 70px; } }
-
-@media (min-width: 1200px) {
-  body {
-    background-image: linear-gradient(to bottom, #fff, #1a4726); }
-  .navBar {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 30; }
-  .navegador {
-    color: black;
-    background-color: whitesmoke;
-    font-size: 20px;
-    justify-content: start; }
-    .navegador ul li a {
-      color: black; }
-    .navegador ul li :hover {
-      font-size: 30px;
-      color: #1a4726; }
-  .imgLogo {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    margin-right: 5px;
-    width: 500px;
-    margin-bottom: 120px; }
-    .imgLogo img {
-      margin-right: 0;
-      width: 100px; }
-    .imgLogo h1 {
-      font-size: 40px;
-      margin: 8px;
-      flex-wrap: wrap;
-      color: #1a4726; }
-  .menuMenu li a {
-    color: black; } }
-
-.imgLogo {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
-  margin-right: 5px;
-  width: 50%; }
-  .imgLogo img {
-    margin-right: 0px;
-    width: 120px; }
-  .imgLogo h1 {
-    font-size: 50px;
-    margin: 8px;
-    flex-wrap: wrap;
-    color: #1a4726; }
-
-.headerH1 {
-  margin-top: 150px; }
-  .headerH1 .carouselFotos {
-    height: 400px; }
-    .headerH1 .carouselFotos img {
-      height: 400px; }
-
-.header {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-  margin-top: 100px; }
-  .header h1 {
-    font-size: 110px;
-    margin-top: 50px; }
-  .header img {
-    margin-top: 50px;
-    width: 400px; }
-
-.mainContacto {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 50%;
-  justify-content: start; }
-  .mainContacto .divForm {
-    margin-right: 200px; }
-
-.mainIndex {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  margin-top: 50px; }
-  .mainIndex .slogan {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    width: 100%;
-    display: flex;
-    flex-direction: column; }
-    .mainIndex .slogan h2 {
-      color: #1a4726;
-      margin-bottom: 50px;
-      font-size: 100px; }
-    .mainIndex .slogan h3 {
-      color: #1a4726;
-      font-size: 40px; }
-  .mainIndex .section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; }
-    .mainIndex .section .subTitulo h3 {
-      color: #1a4726;
-      margin-top: 30px;
-      font-size: 40px; }
-    .mainIndex .section .tarjetas {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      margin-left: 0; }
-      .mainIndex .section .tarjetas .cierres {
-        box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3);
-        margin-top: 0;
-        margin-bottom: 25px; }
-      .mainIndex .section .tarjetas .cintas {
-        box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3);
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        .mainIndex .section .tarjetas .cintas img {
-          width: 200px;
-          margin-top: 10px; }
-      .mainIndex .section .tarjetas .hilos {
+    .mainIndex .sectionIndex .tarjetas {
+      margin: 25px; }
+      .mainIndex .sectionIndex .tarjetas .cierres {
+        margin-bottom: 50px;
         box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3); }
-      .mainIndex .section .tarjetas .guata {
+      .mainIndex .sectionIndex .tarjetas .cintas {
         box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3); }
+        .mainIndex .sectionIndex .tarjetas .cintas img {
+          padding: 40px;
+          margin-top: 20px; }
+      .mainIndex .sectionIndex .tarjetas .hilos {
+        margin-bottom: 50px;
+        box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3); }
+        .mainIndex .sectionIndex .tarjetas .hilos img {
+          padding: 40px; }
+      .mainIndex .sectionIndex .tarjetas .guata {
+        box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3); }
+        .mainIndex .sectionIndex .tarjetas .guata img {
+          padding: 40px; }
+  .mainIndex .boton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a4726; }
+    .mainIndex .boton:hover {
+      background-color: #559265; }
 
 .parrafo {
-  font-size: 40px;
-  margin: 15px;
-  text-align: center; }
+  margin: 18px;
+  font-size: 20px; }
+  .parrafo p {
+    padding: 15px;
+    align-items: center;
+    line-height: 40px; }
 
 .somos {
   display: flex;
-  flex-direction: row;
-  border: 0; }
-  .somos p {
-    font-size: 30px;
-    text-align: center; }
-
-.slogan1 .subDatos {
-  margin-left: 400px;
-  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center; }
-  .slogan1 .subDatos h5 {
-    font-size: 40px;
-    margin-right: 560px; }
+  font-size: 20px;
+  border-radius: 30px;
+  margin-bottom: 25px;
+  border: 1px solid black;
+  margin: 25px; }
+  .somos img {
+    padding: 30px;
+    width: 300px; }
+  .somos p {
+    font-size: 25px;
+    padding: 15px; }
+
+.somos3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 30px;
+  margin-bottom: 25px;
+  border: 1px solid black;
+  margin: 25px; }
+  .somos3 img {
+    padding: 30px;
+    width: 300px; }
+  .somos3 p {
+    font-size: 25px;
+    padding: 15px; }
+
+.subDatos {
+  margin-top: 25px; }
+  .subDatos h5 {
+    color: #1a4726;
+    font-size: 35px; }
 
 .divForm {
   color: #1a4726;
@@ -784,64 +257,71 @@
   margin-bottom: 50px;
   width: 99%; }
 
-.mainNos .slogan {
+.mono {
   display: flex;
-  justify-content: center;
-  margin-top: 30px; }
-  .mainNos .slogan h2 {
-    font-size: 60px; }
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  padding: 15px;
+  color: #1a4726; }
 
-.mainNos .parrafo {
+.mono h4 {
   font-size: 40px;
-  margin: 15px;
-  text-align: center; }
+  margin-bottom: 15px; }
 
-.mainNos .somos {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 60px; }
-  .mainNos .somos p {
-    font-size: 25px;
-    margin-right: 50px;
-    text-align: center; }
-  .mainNos .somos .somos1 {
-    margin-left: 50px; }
+.mono p {
+  color: black;
+  font-size: 16px;
+  line-height: 25px; }
 
-.mainNos .somos3 {
+.cierreMono1 {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 60px; }
-  .mainNos .somos3 .somos2 {
-    margin-right: 50px; }
-  .mainNos .somos3 p {
-    font-size: 25px;
-    text-align: center;
-    margin-left: 50px; }
+  margin-top: 20px; }
+
+.mono1 {
+  width: 180px; }
+
+.mono2 {
+  width: 180px; }
+
+.mono3 {
+  width: 360px;
+  margin-bottom: 20px; }
+
+.ddp1 {
+  width: 250px;
+  height: 250px; }
+
+.ddp2 {
+  width: 250px;
+  height: 250px; }
+
+.ddp {
+  margin-top: 20px; }
+
+.hilo2 {
+  width: 50px; }
 
 .footerIndex {
-  background-image: linear-gradient(to bottom, #1a3705, #2b6857, #6998a0, #bac8d5, #ffffff);
-  width: 99%;
-  border: 0; }
+  background-image: linear-gradient(to right, #1a3705, #2b6857, #6998a0, #bac8d5, #ffffff);
+  width: 99%; }
   .footerIndex .footImg {
-    border: 1px solid #c43a3a;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center; }
     .footerIndex .footImg .logos {
       display: flex;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       align-items: center;
       justify-content: center; }
       .footerIndex .footImg .logos a img {
         width: 64px;
-        margin: 1px; }
+        margin: 15px; }
     .footerIndex .footImg .copi h5 {
       color: black;
       font-size: 12px;
-      padding: 1px;
-      margin: 1px; }
+      padding: 10px;
+      margin: 10px; }
