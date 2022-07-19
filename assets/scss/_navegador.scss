@@ -1,36 +1,23 @@
-.navegador{
-    background-color: $colorPrimario;
-    color: white;
-    ul{
-        li{
-          a{
-            color: white;
-          }
-                :hover{
-                    font-size: 30px;
-                    color: whitesmoke;
-                }
-            
-        }
-    }
-    .menuMenu{
-        li{
-          
-            a{
-                color: black;
-            }
-        }
-    }
-    
-}
 .imgLogo{
-  
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-right: 5px;
-    width: 500px;
-    margin-bottom: 120px;
-    
+    img{
+        width: 128px;
+        margin-right: 20px;
+    }
+    .hH1{
+        color: $colorPrimario;
+        text-decoration: solid;
+        font-size: 50px;
+        :hover{
+            font-size: 80px;
+        }
+    }
+}
+.navegador{
+    li{
+        a{
+        :hover{
+            color: $colorPrimario;
+        }
+    }
+}
 }

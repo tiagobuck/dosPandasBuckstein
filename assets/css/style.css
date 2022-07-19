@@ -4,25 +4,19 @@
   box-sizing: border-box;
   font-family: 'Josefin Sans', sans-serif; }
 
-.navegador {
-  background-color: #1a4726;
-  color: white; }
-  .navegador ul li a {
-    color: white; }
-  .navegador ul li :hover {
-    font-size: 30px;
-    color: whitesmoke; }
-  .navegador .menuMenu li a {
-    color: black; }
+.imgLogo img {
+  width: 128px;
+  margin-right: 20px; }
 
-.imgLogo {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-right: 5px;
-  width: 500px;
-  margin-bottom: 120px; }
+.imgLogo .hH1 {
+  color: #1a4726;
+  text-decoration: solid;
+  font-size: 50px; }
+  .imgLogo .hH1 :hover {
+    font-size: 80px; }
+
+.navegador li a :hover {
+  color: #1a4726; }
 
 .header {
   display: flex;
@@ -326,5 +320,28 @@
       padding: 10px;
       margin: 10px; }
     .footerIndex .copi .logoFooter {
-      width: 150px;
+      width: 95px;
       padding: 15px; }
+
+@media (min-width: 768px) {
+  .navegador {
+    background-color: whitesmoke;
+    color: black; }
+    .navegador ul li a {
+      color: rgba(0, 0, 0, 0.734); }
+    .navegador ul li :hover {
+      font-size: 20px;
+      color: black; }
+    .navegador .menuMenu li a {
+      color: black; }
+  .imgLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    width: 500px;
+    margin-bottom: 0;
+    margin-left: 90px; }
+    .imgLogo .hH1 {
+      margin-right: 20px; } }
