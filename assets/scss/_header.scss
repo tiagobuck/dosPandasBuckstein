@@ -1,16 +1,10 @@
 .header{
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    img {
-        width: 350px;
-    }
-    h1 {
-        font-size: 60px;
-        color: $colorPrimario;
-    }
-}
-.headerH1 h1 {
+    margin-top: 150px;
+    text-align: center;
     color: $colorPrimario;
-    font-size: 50px;
+    .h1Header{
+         font-size: 70px;
+             
+    }
+    
 }

@@ -4,6 +4,12 @@
   box-sizing: border-box;
   font-family: 'Josefin Sans', sans-serif; }
 
+.navBar {
+  position: fixed;
+  top: 0;
+  z-index: 30;
+  width: 100%; }
+
 .imgLogo img {
   width: 128px;
   margin-right: 20px; }
@@ -18,19 +24,16 @@
 .navegador li a :hover {
   color: #1a4726; }
 
-.header {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center; }
-  .header img {
-    width: 350px; }
-  .header h1 {
-    font-size: 60px;
-    color: #1a4726; }
+.imgLogoNos img {
+  width: 96px;
+  margin-left: 50px; }
 
-.headerH1 h1 {
-  color: #1a4726;
-  font-size: 50px; }
+.header {
+  margin-top: 150px;
+  text-align: center;
+  color: #1a4726; }
+  .header .h1Header {
+    font-size: 70px; }
 
 .mainIndex {
   background-image: linear-gradient(to bottom, #fff, #1a4726);
@@ -67,6 +70,9 @@
       .mainIndex .sectionIndex .tarjetas .cierres {
         margin-bottom: 50px;
         box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3); }
+        .mainIndex .sectionIndex .tarjetas .cierres img {
+          padding: 10px;
+          margin-top: 20px; }
       .mainIndex .sectionIndex .tarjetas .cintas {
         box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3); }
         .mainIndex .sectionIndex .tarjetas .cintas img {
@@ -90,29 +96,36 @@
     .mainIndex .boton:hover {
       background-color: #559265; }
 
-.parrafo {
-  margin: 18px;
-  font-size: 20px; }
-  .parrafo p {
-    padding: 15px;
+.mainNos {
+  background-image: linear-gradient(to bottom, #fff, #1a4726); }
+  .mainNos .sloganNos .quienesSomos {
+    text-align: center;
+    color: #1a4726; }
+  .mainNos .parrafo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    line-height: 40px; }
-
-.somos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 20px;
-  border-radius: 30px;
-  margin-bottom: 25px;
-  border: 1px solid black;
-  margin: 25px; }
-  .somos img {
-    padding: 30px;
-    width: 300px; }
-  .somos p {
-    font-size: 25px;
-    padding: 15px; }
+    margin: 18px;
+    font-size: 20px; }
+    .mainNos .parrafo p {
+      padding: 15px;
+      line-height: 40px; }
+  .mainNos .somos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    border: 1px solid black;
+    margin: 25px; }
+    .mainNos .somos img {
+      padding: 30px;
+      width: 300px; }
+    .mainNos .somos p {
+      font-size: 25px;
+      padding: 15px; }
 
 .somos3 {
   display: flex;
@@ -345,3 +358,86 @@
     margin-left: 90px; }
     .imgLogo .hH1 {
       margin-right: 20px; } }
+
+@media (min-width: 992px) {
+  .imgLogo {
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 0;
+    margin-left: 0; }
+    .imgLogo img {
+      width: 96px;
+      margin-right: 20px; }
+    .imgLogo .hH1 {
+      color: #1a4726;
+      text-decoration: solid;
+      font-size: 30px; }
+      .imgLogo .hH1 :hover {
+        font-size: 80px; }
+  .mainIndex .sectionIndex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly; }
+    .mainIndex .sectionIndex .subTitulo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%; }
+    .mainIndex .sectionIndex .tarjetas {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin: 0; }
+      .mainIndex .sectionIndex .tarjetas .cierres {
+        margin-bottom: 50px;
+        margin-right: 30px; }
+        .mainIndex .sectionIndex .tarjetas .cierres img {
+          margin-bottom: 120px; }
+      .mainIndex .sectionIndex .tarjetas .cintas {
+        margin-bottom: 50px;
+        margin-left: 30px; }
+        .mainIndex .sectionIndex .tarjetas .cintas img {
+          padding: 40px;
+          margin-top: 20px; }
+      .mainIndex .sectionIndex .tarjetas .hilos {
+        margin-bottom: 50px;
+        margin-right: 30px; }
+        .mainIndex .sectionIndex .tarjetas .hilos img {
+          padding: 40px; }
+      .mainIndex .sectionIndex .tarjetas .guata {
+        margin-bottom: 50px;
+        margin-left: 30px; }
+        .mainIndex .sectionIndex .tarjetas .guata img {
+          padding: 40px; } }
+
+@media (min-width: 1200px) {
+  .mainIndex .sectionIndex .tarjetas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0; }
+    .mainIndex .sectionIndex .tarjetas .cierres {
+      margin-bottom: 90px;
+      margin-right: 60px; }
+      .mainIndex .sectionIndex .tarjetas .cierres img {
+        margin-bottom: 120px; }
+    .mainIndex .sectionIndex .tarjetas .cintas {
+      margin-bottom: 90px;
+      margin-left: 60px; }
+      .mainIndex .sectionIndex .tarjetas .cintas img {
+        padding: 40px;
+        margin-top: 20px; }
+    .mainIndex .sectionIndex .tarjetas .hilos {
+      margin-bottom: 90px;
+      margin-right: 60px; }
+      .mainIndex .sectionIndex .tarjetas .hilos img {
+        padding: 40px; }
+    .mainIndex .sectionIndex .tarjetas .guata {
+      margin-bottom: 90px;
+      margin-left: 60px; }
+      .mainIndex .sectionIndex .tarjetas .guata img {
+        padding: 40px; } }
